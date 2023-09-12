@@ -32,9 +32,9 @@ class Person {
      */
     String formatName() {
         String formattedName = this.name[name.length - 1] + ",";
-                   int i = 0;
-        while (i != this.name.length - 1) {            formattedName =
-                formattedName+" "+this.name[i];
+            int i = 0;
+        while (i != this.name.length - 1) {            
+            formattedName = formattedName + " " + this.name[i];
             i += 1;
         }
 
